@@ -37,6 +37,8 @@ nav{
     position: relative;
     background-color: transparent;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     /* background: rgb(0,212,255); */
     /* background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(9,117,121,1) 33%, rgba(2,0,36,1) 100%);  */
     padding: 10px;
@@ -232,6 +234,8 @@ i{
     border-radius: 20px;
     background-color: transparent;
     backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+
     font-size: 30px;
     padding: 5px;
     transition: 1s;
@@ -279,6 +283,8 @@ i{
     align-content: center;
     background-color: transparent;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     border-radius: 20px;
     border: solid 1px white;
 
@@ -321,6 +327,7 @@ i{
     text-align: center;
     background-color: transparent;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .frontendwrapper>div>span>img{
     width: 30px;
@@ -339,6 +346,8 @@ i{
     height: fit-content;
     background-color:transparent;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
     border: solid white 1px;
     border-radius: 20px;
     text-align: center;
@@ -349,6 +358,8 @@ i{
     height: fit-content;
     background-color:transparent;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
     border: solid white 1px;
     border-radius: 20px;
     text-align: center;
@@ -400,6 +411,8 @@ i{
     font-size: 26px;
     background-color: transparent;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
     display: flex;
     align-items: center;
 }
