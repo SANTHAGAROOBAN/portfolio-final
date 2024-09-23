@@ -483,15 +483,16 @@ i{
     .info_container{
         left: 10%;
     }
+    .view_resume{
+        font-size: 17px;
+    }
 }
 @media screen and (max-width:475px){
+
     nav>ul{
         gap: 10px;
         font-size: 18px;
     }
-    /* #home,#about,#Contacts{
-        height: 100vh;
-    } */
     .info_container{
         top: 40%;
     }
@@ -504,8 +505,54 @@ i{
     .name{
         font-size: 100px;
     }
-    .section4w{
-        font-size: 22px;
+    .nnm{
+        width: fit-content;
+        height: 10px;
+        font-size:9px;
+    }
+    .section4w {
+        font-size: 18px;
         padding: 10px;
+    }
+}
+@media screen and (max-width:360px){
+    nav>ul{
+        gap: 10px;
+        font-size: 15px;
+    }
+    .hello,.webdeveloper{
+        font-size: 35px;
+    }
+    .name{
+        font-size: 80px;
+    }
+    .author_img>figure>img{
+        width: 300px;
+        height: 300px;
+    }
+    .recent{
+        width: 300px;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .section3wrapper{
+        width: 300px;
+    }
+    .wrapper3{
+        width: 300px;
+    }
+    header{
+        left: 23%;
+        transform: translateX(-19%);
+    }
+    .section3wrapper figure img, .wrapper3 figure img{
+        width: 258px;
+        height: 180px;
+    }
+    .frontend, .versioncontrol{
+        width: 300px;
+    }
+    .section4w {
+        font-size:14px ;
     }
 }
